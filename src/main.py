@@ -15,11 +15,11 @@ import neptune.new as neptune
 
 from run import run
 
-os.environ["SC2PATH"]='~/pymarl/3rdparty/StarCraftII/'
+os.environ["SC2PATH"]='/home/dennismalmgren/repos/marl/3rdparty/StarCraftII/'
 SETTINGS['CAPTURE_MODE'] = "fd" # set to "no" if you want to see stdout/stderr in console
 logger = get_logger()
 
-ex = Experiment("pymarl")
+ex = Experiment("marl")
 ex.logger = logger
 ex.captured_out_filter = apply_backspaces_and_linefeeds
 
@@ -57,7 +57,7 @@ def _get_config(params, arg_name, subfolder):
 
 def recursive_dict_update(d, u):
     for k, v in u.items():
-        if isinstance(v, collections.Mapping):
+        if isinstance(v, collections.abc.Mapping):
             d[k] = recursive_dict_update(d.get(k, {}), v)
         else:
             d[k] = v

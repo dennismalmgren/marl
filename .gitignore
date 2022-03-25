@@ -1,2 +1,7 @@
 3rdparty/
+.neptune/
+.vscode/
+SMAC_Maps/
+__MACOSX/
+results/
 
