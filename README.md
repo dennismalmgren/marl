@@ -1,6 +1,7 @@
-# DQMIX: A Distributional Perspective on Multi-Agent Reinforcement Learning
+# EPyMARL - Updated
 
-This codebase is based on [PyMARL](https://github.com/oxwhirl/pymarl) framwork and [SMAC](https://github.com/oxwhirl/smac). Note that the SC2 version we used is 4.10.
+This codebase is based on [PyMARL](https://github.com/oxwhirl/pymarl) framwork and [SMAC](https://github.com/oxwhirl/smac) as well as [DQMIX](https://github.com/wudiymy/DQMIX). 
+Note that the SC2 version used is 4.10.
 
 ## Installation
 
