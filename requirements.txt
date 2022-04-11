@@ -11,7 +11,7 @@ idna==2.7
 imageio==2.4.1
 jsonpickle==1.4.0
 kiwisolver==1.0.1
-matplotlib==3.2.0
+matplotlib==3.5.1
 mock==2.0.0
 more-itertools==4.3.0
 mpyq==0.2.5
@@ -20,7 +20,7 @@ neptune-client[sacred]==0.15.2
 numpy==1.21.2
 pathlib2==2.3.2
 pbr==4.3.0
-Pillow==5.3.0
+Pillow==9.0
 pluggy==0.7.1
 portpicker==1.2.0
 probscale==0.2.3
